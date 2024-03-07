@@ -6,7 +6,7 @@ export default function IndexPage() {
     <>
       <Redirect to="docs" />
       <div>
-        If you are not redirected automatically, follow this <a href="docs/">link</a>.
+        If you are not redirected automatically, follow this <a href="docs/">link</a>. This will redirectod to Documentation
       </div>
     </>
   );

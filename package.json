@@ -1,18 +1,19 @@
 {
-  "name": "express-validator",
+  "name": "express-validator-mod",
   "description": "Express middleware for the validator module.",
   "author": "Christoph Tavan <dev@tavan.de>",
   "contributors": [
     "Rusty Bailey <rustylbailey@gmail.com>",
     "Gustavo Henke <guhenke@gmail.com>",
-    "Federico Ciardi <fed.ciardi@gmail.com>"
+    "Federico Ciardi <fed.ciardi@gmail.com>",
+    "Alifian Adexe <alifianadexe@gmail.com>"
   ],
-  "version": "7.0.1",
+  "version": "1.0.0",
   "homepage": "https://express-validator.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/express-validator/express-validator.git"
+    "url": "git://github.com/alifianadexe/express-validator-mod.git"
   },
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -26,7 +27,6 @@
     "build": "tsc",
     "clean": "git clean -Xf lib",
     "docs:build": "npm --prefix ./website run build",
-    "docs:publish": "USE_SSH=true DEPLOYMENT_BRANCH=master npm --prefix ./website run publish-gh-pages",
     "docs:regenerate-api": "npm --prefix ./website run regenerate-api",
     "docs:serve": "npm --prefix ./website run serve",
     "docs:start": "npm --prefix ./website start",
@@ -40,6 +40,7 @@
     "node": ">= 8.0.0"
   },
   "dependencies": {
+    "express-adexe": "^1.0.1",
     "lodash": "^4.17.21",
     "validator": "~13.11.0"
   },
